@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#8f7ada">
     <link rel="icon" href="imagenes/logo web.jpg" type="image/jpg">
-
     <title>Artesania en Madera</title>
     <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        .navbar {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -44,218 +44,186 @@
     display: flex;
     align-items: center;
 }
-
 .logo-img {
     margin-right: 10px;
     width: 100px; 
 }
-        body {
-            height: 100vh;
-            
-            background: #283048;
-            background: linear-gradient(to right, #859398, #283048);
-            padding: 20px;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        .container-main {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .container-carousel {
-            position: relative;
-            width: 50%;
-            height: 100vh;
-            background-color: #e0e0e0;
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
-            border-radius: 15px;
-            overflow: hidden;
-            margin: 20px 0 20px 20px;
-        }
-
-        .text-container {
-            width: 50%;
-            padding: 20px;
-            color: white;
-            text-align: left;
-        }
-
-        .carruseles {
-            width: 300%;
-            height: 100%;
-            display: flex;
-            transition: transform ease-in-out 0.6s;
-        }
-
-        .slider-section {
-            flex: 0 0 33.333%;
-            height: 100%;
-        }
-
-        .slider-section img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 15px;
-        }
-
-        .btn-left,
-        .btn-right {
-            display: flex;
-            position: absolute;
-            top: 50%;
-            font-size: 1.5rem;
-            background-color: transparent;
-            border-radius: 50%;
-            padding: 5px;
-            font-weight: 600;
-            cursor: pointer;
-            color: #ffffff81;
-            transform: translate(0, -50%);
-            transition: background-color 0.5s ease, color 0.5s ease;
-            user-select: none;
-            z-index: 3;
-        }
-
-        .btn-left:hover,
-        .btn-right:hover {
-            background-color: #333333d4;
-            color: #fff;
-        }
-
-        .btn-left {
-            left: 10px;
-        }
-
-        .btn-right {
-            right: 10px;
-        }
-        .mi-h1 {
-            font-size: 15em;
-            text-align: center; 
-           
-        }
-
-
-        .mi-p {
-            font-size: 8em;
-            text-align: center;
-        }
-
-        .footer {
-  background-color: #c4a478;
-  padding: 80px;
-  margin: 0;
-  color: #452819;
-
+body {
+    height: 100vh;         
+    background: #283048;
+    background: linear-gradient(to right, #859398, #283048);
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-carousel {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    background-color: #e0e0e0;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px 0 20px 20px;
+}
+.text-container {
+    width: 50%;
+    padding: 20px;
+    color: white;
+    text-align: left;
+}
+.carruseles {
+    width: 300%;
+    height: 100%;
+    display: flex;
+    transition: transform ease-in-out 0.6s;
+}
+.slider-section {
+    flex: 0 0 33.333%;
+    height: 100%;
+}
+.slider-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.btn-left,
+.btn-right {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff81;
+    transform: translate(0, -50%);
+    transition: background-color 0.5s ease, color 0.5s ease;
+    user-select: none;
+    z-index: 3;
+}
+.btn-left:hover,
+.btn-right:hover {
+    background-color: #333333d4;
+    color: #fff;
+}
+.btn-left {
+    left: 10px;
+}
+.btn-right {
+    right: 10px;
+}
+.mi-h1 {
+    font-size: 15em;
+    text-align: center;    
+}
+.mi-p {
+    font-size: 8em;
+    text-align: center;
+}
+.footer {
+    background-color: #c4a478;
+    padding: 80px;
+    margin: 0;
+    color: #452819;
 }
 .footer-content{
-  display: flex;
-  justify-content: space-between;
-  justify-items: center;
-  font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    font-size: 50px;
 }
 .footer-content .column:nth-child(1) {
-  justify-self: start;
-  font-size: 20px; 
+    justify-self: start;
+    font-size: 20px; 
 }
-
 .footer-content .column:nth-child(2) {
-  justify-self: center;
-  font-size: 50px; 
+    justify-self: center;
+    font-size: 50px; 
 }
-
 .footer-content .column:nth-child(3) {
-  justify-self: end; 
-  font-size: 50px;
+    justify-self: end; 
+    font-size: 50px;
 }
 .social-icons a {
-  color: #a05d3c;
-  display: inline;
-  margin-bottom: 10px;
-  font-size: 100px;
-  align-items: center;
+    color: #a05d3c;
+    display: inline;
+    margin-bottom: 10px;
+    font-size: 100px;
+    align-items: center;
 }
-
 .footer-logo {
-  color: #452819;
-  font-size: 60px;
-  font-family: Courgette, cursive;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-  
+    color: #452819;
+    font-size: 60px;
+    font-family: Courgette, cursive;
+    font-weight: 600;
+    margin-bottom: 20px;
+} 
 .footer-link {
-  color: #452819; 
-  text-decoration: none; 
-  transition: box-shadow 0.3s ease; 
-  margin-bottom: 5px;
-  list-style: none;
-  padding: 0;
-  font-size: 50px;
+    color: #452819; 
+    text-decoration: none; 
+    transition: box-shadow 0.3s ease; 
+    margin-bottom: 5px;
+    list-style: none;
+    padding: 0;
+    font-size: 50px;
 }
-
 .footer-contacto {
-  color: #452819;
-  display: flex;
-  flex-direction: column;
-  font-size: 40px;
+    color: #452819;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
 }
-
 input[type="email"] {
-  width: 100%;
-  padding: 5px;
-  margin-top: 10px;
-  font-size: 40px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 40px;
 }
 input[type="text"] {
-  width: 100%;
-  padding: 5px;
-  margin-top: 10px;
-  font-size: 40px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 40px;
 }
-
 input[type="submit"] {
-  width: 30%;
-  padding: 15px;
-  margin-top: 5px;
-  font-size: 35px;
-  background-color:#a05d3c
+    width: 30%;
+    padding: 15px;
+    margin-top: 5px;
+    font-size: 35px;
+    background-color:#a05d3c
 }
 .copyright-bar {
-  background-color: #5e4d07;
-  text-align: center;
-  color: white;
-  padding: 5px 0;
-  font-size: 60px;
+    background-color: #5e4d07;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+    font-size: 60px;
 }
-
-        /* Resto de tus estilos ... */
     </style>
 </head>
-
 <body>
-
     <header>
         <nav class="navbar">
             <a href="#" class="Logo">
-                <img src="imagenes/logo web.jpg" alt="Logo de la empresa" class="logo-img" width="50">
-            </a>
+                <img src="imagenes/logo web.jpg" alt="Logo de la empresa" class="logo-img" width="50"></a>
             <ul class="nav-right">
                 <li><a href="Index1.html#pinicio" target="_blank" class="monoespaciada">Inicio</a></li>
                 <li><a href="Index1.html#seccionProductos" target="_blank" class="monoespaciada">Productos</a></li>
                 <li><a href="Index1.html#miContacto" target="_blank" class="monoespaciada">Contactos</a></li>
                 <li><a href="Index1.html#seccion3" target="_blank" class="monoespaciada">Envíos</a></li>
             </ul>
-        </nav> <!-- ... (Tu código existente) ... -->
+        </nav> 
     </header>
-
-    <!-- Contenedor principal que contiene tanto el carrusel como el texto -->
     <div class="container-main">
-        <!-- Contenedor para el texto al lado izquierdo del carrusel -->
         <div class="text-container">
             <h1 class="mi-h1">Lleva a tu hogar la<br>
             calidez en todas sus<br>
@@ -263,8 +231,6 @@ input[type="submit"] {
             <p class="mi-p">Hacemos de un detalle un obsequio<br>
             inolvidable</p> 
             </div>
-
-        <!-- Contenedor para el carrusel -->
         <div class="container-carousel">
             <div class="carruseles" id="slider">
                 <section class="slider-section">
@@ -280,12 +246,7 @@ input[type="submit"] {
             <div class="btn-left" onclick="moveToLeft()"><i class='bx bx-chevron-left'></i></div>
             <div class="btn-right" onclick="moveToRight()"><i class='bx bx-chevron-right'></i></div>
         </div>
-
     </div>
-
-    <!-- ... (Tu código existente) ... -->
-
-
         <footer>
             <footer class="footer">
                 <div class="footer-content">
@@ -294,23 +255,32 @@ input[type="submit"] {
                     </div>
                     <div class="column">
                         <ul>
-                            <li><a href="https://www.cnnbrasil.com.br/viagemegastronomia/noticias-sobre/donuts/" class="footer-link">Notícias</a></li>
-                            <li><a href="https://lemundo.com.br/curiosidades-sobre-donuts/" class="footer-link">Curiosidades</a></li>
-                            <li><a href="https://www.youtube.com/watch?v=UdlCH4F2oRg" class="footer-link">Artesania en Madera</a></li>
+                            <li><a href="https://www.cnnbrasil.com.br/viagemegastronomia/noticias-sobre/donuts/" 
+                                class="footer-link">Notícias</a></li>
+                            <li><a href="https://lemundo.com.br/curiosidades-sobre-donuts/" 
+                                class="footer-link">Curiosidades</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=UdlCH4F2oRg" 
+                                class="footer-link">Artesania en Madera</a></li>
                         </ul>
                         <div class="social-icons">
-                            <a href="https://www.facebook.com/https://www.facebook.com/chaihen.door?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                            <a href="https://wa.me/+5516996330054?text=Quisiera información adicional" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
-                            <a href="https://www.instagram.com/https://instagram.com/chaihenop?igshid=ZDc4ODBmNjlmNQ==" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                            <a href="https://www.facebook.com/https://www.facebook.com/chaihen.door?mibextid=ZbWKwL" 
+                            target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://wa.me/+5516996330054?text=Quisiera información adicional" 
+                            target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+                            <a href="https://www.instagram.com/https://instagram.com/chaihenop?igshid=ZDc4ODBmNjlmNQ==" 
+                            target="_blank"><i class="fab fa-instagram-square"></i></a>
                         </div>
                     </div>
-                    <div class="column">
-                        
+                    <div class="column"> 
                         <ul>
-                            <li><a href="index.html#pinicio" target="_blank" class="footer-link">Inicio</a></li>
-                            <li><a href="Index1.html#seccionProductos" target="_blank" class="footer-link">Produtos</a></li>
-                            <li><a href="Index1.html#seccion3" target="_blank" class="footer-link">Envios</a></li>
-                            <li><a href="Index1.html#micontacto" target="_blank" class="footer-link">Contacto</a></li>
+                            <li><a href="index.html#pinicio" 
+                                target="_blank" class="footer-link">Inicio</a></li>
+                            <li><a href="Index1.html#seccionProductos" 
+                                target="_blank" class="footer-link">Produtos</a></li>
+                            <li><a href="Index1.html#seccion3" 
+                                target="_blank" class="footer-link">Envios</a></li>
+                            <li><a href="Index1.html#micontacto" 
+                                target="_blank" class="footer-link">Contacto</a></li>
                         </ul>
                     </div>
                     <div class="column">
@@ -344,31 +314,23 @@ input[type="submit"] {
                 </section> 
                 </div>
             </footer>
-        
-    
-
     <script>
         const slider = document.querySelector("#slider");
         const sliderSections = document.querySelectorAll(".slider-section");
         const widthImg = 100 / sliderSections.length;
         let counter = 0;
-
         function moveToRight() {
             counter = (counter + 1) % sliderSections.length;
             updateSlider();
         }
-
         function moveToLeft() {
             counter = (counter - 1 + sliderSections.length) % sliderSections.length;
             updateSlider();
         }
-
         function updateSlider() {
             slider.style.transform = `translateX(-${counter * widthImg}%)`;
         }
-
         setInterval(moveToRight, 3000);
     </script>
 </body>
-
 </html>
