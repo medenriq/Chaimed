@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#8f7ada">
+    <link rel="icon" href="imagenes/logo web.jpg" type="image/jpg">
+
+    <title>Artesania en Madera</title>
+</head>
+<style>
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 40px; 
+    width: 100%;
+    z-index: 1000;
+}
+.nav-right{
+    list-style: none;
+    display:flex;
+}
+.navbar a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 70px;
+    font-size:  50px; 
+}
+.Logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    margin-right: 10px;
+    width: 100px; 
+}
+/*////////////////////////////////////////*/
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#pinicio {
+  display: flex;
+  top:100px;
+  left:0;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 60px0);
+  background: url(Imagenes/imagen3.jpg) center/cover no-repeat;
+  
+}
+
+.contenedor-imagenes {
+  flex: 1;
+  overflow: hidden;
+}
+
+.imagen-izquierda,
+.imagen-derecha {
+  width: 225%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contenido-centro {
+  flex: 1;
+  text-align: center;
+  padding: 0 -20px; 
+}
+.contenido-centro h2 {
+    margin-bottom: 20px;
+    font-size: 12em;
+  
+}
+.contenido-centro p {
+    margin-top: 100px;
+    font-size: 6em;
+   
+}
+/*/////////////////////////////////*/
+
+#container-imagenes2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin: 0 -20px;
+  color: rgb(4, 18, 18);
+  
+}
+
+.imaginacion {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url(Imagenes/image-6-1.jpg);
+    background-size: cover;
+    background-position:center;
+    display:flex;
+    font-size: 150px;
+    color:#0a06ecfe;
+    text-align: center;
+}
+/*////////////////////////////////////////*/
+.seccion3 {
+        position: relative;
+        height: 100vh;
+        background: url("imagenes/imagen6\ \(2\).jpg") center/cover;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenido {
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        z-index: 1;
+        top:50%;
+        transform: translateY(-50%);
+    
+    }
+
+    .imagen-pequena {
+        width: 1250px; 
+        height: 1250px;
+        position: absolute;
+        left: 20px;
+        transform: translate(-100, -50);
+        border-radius: 850PX;
+
+    }
+
+    .texto {
+        font-size: 110px; 
+        text-align: center;
+        color: #eeff05;
+    }
+    .imagen-fondo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        }
+        
+/*//////////////////////////////////*/    
+.seccion4 {
+        position: relative;
+        height: 100vh;
+        background: url("imagenes/imagen8.jpg") center/cover;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+}
+
+.imagen-pequena1 {
+        width: 1200px; 
+        height: 1200px;
+        position: absolute;
+        left: 40px;
+        border-radius:50%;
+        bottom: 40px;
+}
+
+.imagen-pequena3 {
+      
+        width: 1200px; 
+        height: 1200px;
+        position: absolute;
+        left: 40px;
+        border-radius:50%;
+        top: 40px;
+      
+}
+.imagen-pequena2 {
+        width: 1200px; 
+        height: 1200px;
+        position: absolute;
+        right: 20px;
+        border-radius: 50%;
+        bottom: 20px;
+}
+.imagen-pequena4 {
+        width: 1200px; 
+        height: 1200px;
+        position: absolute;
+        right: 20px;
+        border-radius: 50%;
+        top: 40px;
+}
+
+
+.texto1 {
+        font-size:110px; 
+        text-align: center;
+        color: #10100b;
+    }
+/*//////////////////////////////////*/
+
+.seccion5 {
+        position: relative;
+        height: 100vh;
+        background: url("imagenes/imagmaderacruzada.jpg") center/cover;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        
+}
+.imagen-pequena5 {
+        width: 1200px; 
+        height: 1200px;
+        position: absolute;
+        right: 20px;
+        border-radius: 50%;
+        border:solid;
+        bottom: 20px;
+}
+.imagen-pequena6 {
+        width: 1200px; 
+        height: 1200px;
+        position: absolute;
+        right: 20px;
+        border-radius: 50%;
+        border: solid;
+        top: 40px;
+}
+.texto5 {
+        font-size:200px; 
+        text-align: center;
+        color: #ebebe2;
+        
+}
+
+
+/*//////////////////////////////////*/
+#container-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto6 {
+    flex: 1; /* Toma el espacio disponible */
+    padding: 20px; /* Añade algún espacio alrededor del texto */
+    font-size: 70px;
+    text-align: center;
+}
+
+.imagen-byke {
+    flex: 1; /* Toma el espacio disponible */
+    text-align: right; /* Alinea la imagen a la derecha */
+   
+}
+
+.imagen-bici {
+    width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+/*////////////////////////////////*/
+/* Estilos para las tarjetas de la página de productos */
+.productos2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.linea-productos2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+.producto {
+  background-color: rgba(152, 132, 106, 0.538);
+  flex: 0 0 calc(25% - 20px); 
+  margin: 0 10px;
+  margin-bottom: 20px; 
+  box-sizing: border-box; 
+}
+
+.card2 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.card2 h2 {
+ 
+  font-size: 2em; 
+  margin-bottom: 5px;
+  color: #452819;
+}
+
+.card2 p {
+  margin-bottom: 10px;
+  font-size: 1.2em; 
+  color: #452819;
+}
+
+.card2 img {
+  max-width: 100%; 
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
+}
+
+/*////////////////////////////////*/
+.footer {
+  background-color: #c4a478;
+  padding: 80px;
+  margin: 0;
+  color: #452819;
+
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  font-size: 50px;
+}
+.footer-content .column:nth-child(1) {
+  justify-self: start;
+  font-size: 20px; 
+}
+
+.footer-content .column:nth-child(2) {
+  justify-self: center;
+  font-size: 50px; 
+}
+
+.footer-content .column:nth-child(3) {
+  justify-self: end; 
+  font-size: 50px;
+}
+.social-icons a {
+  color: #a05d3c;
+  display: inline;
+  margin-bottom: 10px;
+  font-size: 100px;
+  align-items: center;
+}
+
+.footer-logo {
+  color: #452819;
+  font-size: 60px;
+  font-family: Courgette, cursive;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+  
+.footer-link {
+  color: #452819; 
+  text-decoration: none; 
+  transition: box-shadow 0.3s ease; 
+  margin-bottom: 5px;
+  list-style: none;
+  padding: 0;
+  font-size: 50px;
+}
+
+.footer-contacto {
+  color: #452819;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+input[type="submit"] {
+  width: 30%;
+  padding: 15px;
+  margin-top: 5px;
+  font-size: 35px;
+  background-color:#a05d3c
+}
+.copyright-bar {
+  background-color: #5e4d07;
+  text-align: center;
+  color: white;
+  padding: 5px 0;
+  font-size: 60px;
+}
+
+</style>
+<body>
+    <header>
+        <!------------------------------>
+        <nav class="navbar">
+            <a href="#" class="Logo">
+                <img src="imagenes/logo web.jpg" alt="Logo de la empresa" class="logo-img" width="50">
+            </a>
+            <ul class="nav-right">
+                <li><a href="#pinicio" class="monoespaciada">Inicio</a></li>
+                <li><a href="#seccionProductos" class="monoespaciada">Productos</a></li>
+                <li><a href="#miContacto" class="monoespaciada">Contactos</a></li>
+                <li><a href="#seccion3" class="monoespaciada">Envíos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!---------------------------------->
+    <section id="pinicio">
+        <div class="contenedor-imagenes">
+          <img src="imagenes/imagen1.jpg" alt="imagen1" class="imagen-izquierda">
+        </div>
+        <div class="contenido-centro">
+          <h2>Conoce nuestro mundo de diseño</h2><br><br><br>
+          <p>Los elaboramos con mucha dedicación, <br>
+             para hacer de tu vida un placer.</p>
+        </div>
+        <div class="contenedor-imagenes">
+          <img src="imagenes/imagen2.jpg" alt="Imagen 2" class="imagen-derecha">
+        </div>
+      </section>
+      <!-------------------------------->
+    <section id="container-imagenes2">
+        <div class="imaginacion">
+           <div>
+            <h2>Usa tu imaginación y <br>personaliza tu pedido</h2>
+            <p>Dí lo que quieras y te lo imprimimos en tu obsequio</p>
+        </div>
+    </section>
+    <!----------------------------------->
+    <section class="seccion3">
+      <div class="contenedor3">
+              <img class="imagen-pequena" src="Imagenes/imagen7.jpg" alt="Imagen Pequeña">
+              <h2 class="texto">De nuestro taller a su hogar <br>de forma rápida y confiable <br>
+                                Promociones con envío grátis</h2><br>
+              <p class="texto"> Fácil, rápido y confiable <br> Te enseñamos como hacer tu pedido </p><br>
+              <p class="texto">Para mayor información sobre nuestros envíos,<br> entre en contacto con nosotros vía whatsapp</p>
+        </div>
+  </section>
+    <!----------------------------------->
+    <section class="seccion4">
+        <div class="contenedor4">
+            <img class="imagen-pequena1"src="Imagenes/imagen9.jpg" alt="Imagen pequena1"> 
+            <img class="imagen-pequena2"src="Imagenes/imagen10.jpg" alt="imagen pequena2"> 
+            <img class="imagen-pequena3"src="Imagenes/imagen11.jpg" alt="Imagen pequena3"> 
+            <img class="imagen-pequena4"src="Imagenes/anillos2.jpg" alt="Imagen pequena4">  
+        </div>
+        
+        <div class="Texto4">
+            <h2 class="texto1">Mira, y por qué lo <br>
+            hacemos</h2>
+            <p class="texto1">Nuestros productos son elaborados con <br>
+            madera de alta calidad y resistencia, <br>
+            diseños atractivos y funcionales,<br>
+            pensando siempre en satisfacer las <br>
+            necesidades de nuestros clientes.</p>
+        </div> 
+    </section>
+    <!--------------------------------->
+    <section class="seccion5">
+        <div class="contenedor5">
+           
+            <img class="imagen-pequena5"src="Imagenes/faca.jpg" alt="imagen pequena5"> 
+            <img class="imagen-pequena6"src="Imagenes/ajedres.jpg" alt="Imagen pequena5">  
+        </div>
+        
+        <div class="Texto5">
+            <h2 class="texto5">Nuestros Colaboradores<br>
+            nos ayudan a crecer</h2>
+            <p class="texto5">Por nuestros clientes,<br>
+            vamos más allá de nuestras <br>
+            fronteras<br></p>
+        </div> 
+    </section>
+    <!--------------------------------->
+    <section id="container-6">
+        <div class="texto6">
+            <h2>Con pasión por la madera y el trabajo hecho a mano. Chaimed es un 
+                emprendimiento dedicado a la producción de diversos artículos decorativos y de cocina</h2>
+        </div>
+        <div class="imagen-byke">
+            <img class="imagen-bici" src="imagenes/byke.jpg" alt="Imagen Bici">
+
+        </div>
+    </section>
+<!----------------------------->
+<section id="seccionProductos">
+    <div class="productos2">
+      <div class="linea-productos2">
+        <div class="producto">
+          <div class="card2">
+            <img src="imagenes/anillov1.jpg"/>
+            <h3>Anillos Unisex</h3>
+            <p>Precio: $15,50</p>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="card2">
+            <img src="imagenes/imagen10.jpg" />
+            <h3>Mortero de Ajo</h3>
+            <p>Precio: $30,00</p>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="card2">
+            <img src="imagenes/imagen11.jpg" width="76%"/>
+            <h3>Tabla Redonda</h3>
+            <p>Precio: $45,50</p>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="card2">
+            <img src="imagenes/Garfio.jpg"/>
+            <h3>Garfio para Barbeque</h3>
+            <p>Precio: $55,50</p>
+          </div>
+        </div>
+      </div>
+      <div class="linea-productos2">
+        <div class="producto">
+          <div class="card2">
+            <img src="imagenes/tenedor.jpg"/>
+            <h3>Tenedor para Barbeque</h3>
+            <p>Precio: $55,50</p>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="card2">
+            <img src="imagenes/mazopvc.jpg"/>
+            <h3>Martillo</h3>
+            <p>Precio: $30,50</p>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="card2">
+            <img
+              src="imagenes/caja de sonidotlf.jpg" width="500%"/>
+            <h3>Carros Antiguos</h3>
+            <p>Precio: $2.512,00</p>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="card2">
+            <img src="imagenes/tasademadera.jpg" width="76%"/>
+            <h3>Tasa de madera</h3>
+            <p>Precio: $36,50</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!------------------------------>
+    <footer id="miContacto">
+        <footer class="footer">
+            <div class="footer-content">
+                <div>
+                    <img src="Imagenes/logo web.jpg" width="400px">
+                </div>
+                <div class="column">
+                    <ul>
+                        <li><a href="https://www.cnnbrasil.com.br/viagemegastronomia/noticias-sobre/donuts/" class="footer-link">Notícias</a></li>
+                        <li><a href="https://lemundo.com.br/curiosidades-sobre-donuts/" class="footer-link">Curiosidades</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=UdlCH4F2oRg" class="footer-link">Artesania en Madera</a></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/https://www.facebook.com/chaihen.door?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://wa.me/+5516996330054?text=Quisiera información adicional" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+                        <a href="https://www.instagram.com/https://instagram.com/chaihenop?igshid=ZDc4ODBmNjlmNQ==" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                </div>
+                <div class="column">
+                    
+                    <ul>
+                        <li><a href="#pinicio" class="footer-link">Inicio</a></li>
+                        <li><a href="#seccionProductos" class="footer-link">Produtos</a></li>
+                        <li><a href="#seccion3" class="footer-link">Envios</a></li>
+                        <li><a href="#miContacto" class="footer-link">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="footer-contacto">
+                        <h2>¿Deseas contactarnos?</h2>
+                        <p><i class="fas fa-map-marker-alt"></i> Calle Antonio Mascaro #144 Barrio Azulville II</p>
+                        <p><i class="fas fa-phone-alt"></i> +55 16 997683471 - Solo Whastsapp</p>
+                        <p><i class="far fa-envelope"></i> medenriq@gmail.com</p>
+                    </div>
+                </div>       
+            <Section>
+                <form action="/" method="post">
+                    <fieldset>
+                        <legend>Información de contacto</legend>
+                        <label>Nombre:
+                            <input type="text" id="name" name="name"
+                            placeholder="Pon tu nombre aquí">
+                        </label>
+                       <div>
+                            <label for="email">
+                                Email:
+                                <input type="email" name="email" id="email"
+                                placeholder="Escribe tu email aquí"/>
+                            </label>
+                         <div><br>
+                            <input type="submit" name="" id="" value="enviar info">
+                         </div>   
+                       </div> 
+                    </fieldset> 
+                </form>              
+            </section> 
+            </div>
+        </footer>
+        <div class="copyright-bar">
+            <p>&copy; Derechos Reservados, Chaimed</p>
+        </div>
+    </footer>
+</body>
+</html>
+
